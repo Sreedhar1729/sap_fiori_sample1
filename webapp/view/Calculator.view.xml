@@ -1,0 +1,27 @@
+<mvc:View controllerName="com.sap.caluclator.controller.Calculator"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+       <!-- <Page id="page" title="{i18n>title}">
+        <content />
+    </Page> -->
+    <VBox id="_IDGenVBox1" >
+   
+    <Label id="_IDGenLabel1" labelFor="_IDGenInput1" text="Enter first number" ></Label>
+    <Input id="_IDGenInput1" type="Number" placeholder="Firsr number" width="25%"/>
+ </VBox>
+<VBox id="_IDGenVBox2" >
+    <Label id="_IDGenLabel2" labelFor="_IDGenInput1" text="Enter first number"></Label>
+    <Input id="_IDGenInput2" type="Number" placeholder="Second number" width="25%"/>
+
+    </VBox>
+
+    <Button id="_IDGenButton1" press="onCalculate" text="Caluclate" />    
+
+     <Button
+        id="idInitiateJsonModel"
+        text="Initiate Json Model"
+        press="onInitiateJsonModel"
+    />
+
+ 
+</mvc:View>
